@@ -9,7 +9,7 @@ const bcrypt = require('bcryptjs')
 const loginRouter = require('./controllers/login')
 const jwt = require('jsonwebtoken')
 
-mongoose.connect('mongodb://blogi:blogi1@ds129462.mlab.com:29462/blogi')
+mongoose.connect('mongodb://DATABASE:DATABASEBPW@ds129462.mlab.com:29462/blogi')
 
 app.use(cors())
 app.use(bodyParser.json())
