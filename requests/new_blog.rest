@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs/
+content-type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImpsaW5kIiwiaWQiOiI1YzUwOTQ4YmNhNTJjMTE3NDhiYTlmY2YiLCJpYXQiOjE1NDg3ODk4MTN9.5zW4D_yoehLHgWJA94XE4_QL9kHAhysq2rpBddAvwCo
+
+{
+    "title": "testiblogi",
+    "author": "jl2",
+    "url": "testi.com",
+    "likes": 5,
+    "userId": "5c50948bca52c11748ba9fcf"
+}
